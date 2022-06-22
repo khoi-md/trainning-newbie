@@ -1,0 +1,21 @@
+@import './utilites.scss';
+
+#unit-organization {
+  background-color: #fff;
+  padding: 0px 102px 40px 102px;
+  transition: all 0.3s;
+  margin-left: 320px;
+
+  &.menu-toggle {
+    margin-left: 80px;
+  }
+
+  .navbar-container {
+    left: 0;
+    top: 64px;
+    z-index: 99;
+  }
+}
+
+@import './list.scss';
+@import './detail.scss';

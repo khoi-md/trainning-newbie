@@ -1,0 +1,96 @@
+#unit-organization-detail {
+  overflow-x: hidden;
+  .go-back {
+    padding-top: 24px;
+  }
+  
+  .back {
+    margin-right:5px;
+    cursor: pointer;
+  }
+
+  .header {
+    &-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 28px;
+    }
+
+    &-title {
+      font-size: 20px;
+      color: #333;
+    }
+
+    &-action {
+      font-size: 14px;
+    }
+
+    &-tag {
+      margin: 24px 0;
+    }
+  }
+
+  .form {
+    margin-top: 24px;
+    
+    &-input:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .error {
+    color: #ed5d5d;
+    margin-top: 4px;
+  }
+}
+
+.btn {
+  padding: 4px 8px;
+  color: #fff;
+  border-radius: 4px;
+  background: #627D98;
+  border: 1px solid #627D98;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  white-space: nowrap;
+  width: 82px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+
+  &-update {
+    width: 102px;
+    background-color: #48647F;
+    border: 1px solid #48647F;
+    padding: 8px;
+
+    &.active {
+      background-color: #48647F;
+      border: 1px solid #48647F;
+    }
+
+    &.disabled {
+      background-color: #dcdcdc;
+      border: 1px solid #dcdcdc;
+    }
+  }
+
+  &-delete {
+    width: 102px;
+    background-color: #ffe5e5;
+    border: 1px solid #ffe5e5;
+    color: #8b041b;
+    font-weight: 400;
+    padding: 8px;
+  }
+}
+
+input {
+  width: 100%;
+  max-width: 528px;
+  height: 40px;
+  border: 1px solid #DCDCDC;
+  border-radius: 4px;
+  padding: 10px;
+}

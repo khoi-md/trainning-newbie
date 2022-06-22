@@ -1,0 +1,74 @@
+// margin
+@import './mixins/margin.scss';
+
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.d-flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//padding
+.mh-500 {
+  min-height: 500px;
+}
+
+@mixin custom-scroll-bar {
+  &::-webkit-scrollbar {
+    width: 8px;
+    cursor: default;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #DCDCDC;
+    border-radius: 12px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table-layout-fixed {
+  table-layout: fixed;
+}

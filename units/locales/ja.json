@@ -1,0 +1,192 @@
+{
+  "unit": {
+    "organization": {
+      "notify": {
+        "register": "登録しました",
+        "update": "更新しました",
+        "delete": "削除しました"
+      },
+      "list": {
+        "tag": {
+          "all": "すべて",
+          "in_use": "使用中",
+          "unused": "未使用",
+          "scheduled_abolished": "廃止予定",
+          "abolished": "廃止"
+        },
+        "status": {
+          "in_use": "使用中",
+          "unused": "未使用",
+          "abolition": "廃止"
+        },
+        "department_list": "部署一覧",
+        "register_a_department": "部署を登録する",
+        "title": "部署・組織改編一覧",
+        "description": "部署名の変更や、組織体系の変更がある場合は、新しい部署や組織を作成しましょう。部署の責任者の交代や、部署情報の訂正をする場合は、各部署や組織にて編集を行ってください。",
+        "sort": {
+          "number_subject": "{number}件"
+        },
+        "table": {
+          "status": "ステータス",
+          "department_code": "部署コード",
+          "department_name": "部署名",
+          "date_of_establishment": "開始年月日",
+          "last_updated": "最終更新日",
+          "update_date": "更新年月日",
+          "abolition_date": "廃止年月日",
+          "hierarchy": "階層"
+        },
+        "side_bar": {
+          "organization_management": "組織管理",
+          "department_register": "部署登録",
+          "bulk_registration": "一括登録",
+          "basic_information_settings": "基本情報設定",
+          "list_of_administrators": "管理者一覧",
+          "master_setting": "マスタ設定",
+          "organizational_reorganization_list": "組織改編一覧",
+          "reorganization_registration": "改編登録"
+        },
+        "placeholder": {
+          "search": "部署名、部署コードで検索"
+        },
+        "no_content": {
+          "description": "所属長が登録されていません。"
+        },
+        "button": {
+          "register": "登録する",
+          "cancel": "キャンセル",
+          "delete": "削除する"
+        },
+        "paging": "{totalRecord}件中 {start}~{end}件を表示中",
+        "action_threedots": {
+          "registration_of_abolition_date": "廃止年月日の登録",
+          "change_of_abolition_date": "廃止年月日の変更",
+          "delete_of_abolition_date": "廃止年月日の削除"
+        },
+        "modal": {
+          "register_of_abolition_date": "廃止年月日を登録する",
+          "change_of_abolition_date": "廃止年月日を変更する",
+          "delete_of_obsolete_date": "廃止年月日を削除します",
+          "department_follow": "以下の部署に廃止年月日を登録します",
+          "abolition_date": "廃止年月日"
+        }
+      },
+      "detail": {
+        "title": "部署登録",
+        "date_established": "設立",
+        "date_abolished": "廃止",
+        "tag" : {
+          "department": "部署",
+          "affliation_manager": "所属長",
+          "required": "必須"
+        },
+        "department_info": "部署情報",
+        "business_content": "事業内容",
+        "priority_classification": "重点区分",
+        "related_department": "関連する部署",
+        "change_history": "部署名・部署住所・部署情報の変更履歴",
+        "department_name_setting": "部署名称設定",
+        "start_date": "開始年月日",
+        "year": "年",
+        "month": "月",
+        "day": "日",
+        "department_code": "部署コード",
+        "please_enter_alphanumerical": "20桁以内の英数字で入力してください。すでにある部署コードは使用できません。",
+        "language": "言語",
+        "department_name": "部署名",
+        "engineer_division": "技術本部",
+        "department_alphabetic_name": "部署英字名",
+        "department_abbreviation": "部署略称",
+        "department_abbreviation_english": "部署英字名略称",
+        "department_rank": "部署ランク",
+        "department_address": "部署住所",
+        "appropriate_personnel": "適正人員",
+        "name": "名",
+        "postal_code": "郵便番号",
+        "prefectures": "都道府県",
+        "municipalities": "市区町村",
+        "address": "番地",
+        "building_name": "建物名称・部屋番号",
+        "department_address_map": "部署住所地図",
+        "drag_drop_file": "ファイルをドラッグ&ドロップ",
+        "browser_file": "ファイルを参照する",
+        "address_map": "住所地図",
+        "telephone_number": "電話番号",
+        "fax_number": "FAX番号",
+        "nearest_route_name": "最寄りの路線名",
+        "nearest_station_name": "最寄りの駅名",
+        "memo": "メモ",
+        "add_affliation_manager": "所属長の追加",
+        "placeholder": {
+          "select": "選択してください",
+          "policy_store": "政策店舗",
+          "select_history": "履歴を選択してください",
+          "select_related_dept": "部署コード、部署名で検索する",
+          "language": "日本語",
+          "please_enter": "入力してください",
+          "large": "大型",
+          "prefectures": "東京都",
+          "municipalities": "港区芝",
+          "address": "１丁目",
+          "building_name": "サイダスビル",
+          "half_width": "半角で入力してください",
+          "half_size": "半角",
+          "route_name": "路線名で検索してください",
+          "station_name": "駅名で検索してください",
+          "500_characters": "入力してください（500文字）",
+          "input_zero": "0",
+          "search_by_name": "お名前や社員番号で検索してください",
+          "date_picker": "0000/00/00"
+        },
+        "button": {
+          "update": "更新する",
+          "add_history": "履歴を追加",
+          "address_acquisition": "住所取得",
+          "edit": "編集する",
+          "delete": "削除する",
+          "remove": "外す"
+        },
+        "table": {
+          "family_name": "氏名",
+          "arrival_date": "着任日",
+          "retire_date": "退任日"
+        },
+        "modal": {
+          "add_history": {
+            "title": "所属長を追加する",
+            "start_date": "開始年月日"
+          },
+          "button": {
+            "add": "追加する",
+            "register": "登録する",
+            "remove": "外す",
+            "cancel": "キャンセルする",
+            "cancel_2": "キャンセル"
+          },
+          "add_a_manager": {
+            "title": "所属長を追加する",
+            "affliation_manager": "所属長",
+            "arrival_date": "着任日"
+          },
+          "remove_a_manager": {
+            "title": "所属長を外す",
+            "description": "ご確認ください",
+            "description_2": "清水 麻美さんを所属長から外します。"
+          }
+        },
+        "error": {
+          "date": "無効な日付です",
+          "code": "既に存在しているコードです",
+          "please_enter_20_characters": "20桁以内の英数値のみで入力してください",
+          "please_enter_500_characters": "500桁以内の英数値のみで入力してください",
+          "code_duplicate": "既に存在しているコードです",
+          "number": "数値で入力してください",
+          "size_error": "サイズが10MB以下のファイルを選択してください",
+          "format_error": "ファイル形式が不正です。アップロード可能な形式：jpeg,jpg,png",
+          "postal_code": "存在しない郵便番号です。",
+          "field": "必須{field}入力です。"
+        }
+      }
+    }
+  }
+}
